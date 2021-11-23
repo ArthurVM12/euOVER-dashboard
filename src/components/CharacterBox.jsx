@@ -110,7 +110,7 @@ function CharacterBox({ classes, character, deleteCharacter, ...rest }) {
             <HeartIcon />
           )}
           <span className={classes.hpInfo}>
-            'HP:' + {character.current_hit_points}/{character.max_hit_points}
+            HP: {character.current_hit_points}/{character.max_hit_points}
           </span>
         </div>
         <div
