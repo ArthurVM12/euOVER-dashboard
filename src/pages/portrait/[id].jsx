@@ -145,7 +145,7 @@ function Portrait({
               </div>
               <div style={{ display: showOnly.stats ? 'block' : 'none' }}>
                 <span className={classes.hitPoints}>
-                  {hitPoints.current}/{hitPoints.max}
+                  HP: {hitPoints.current}/{hitPoints.max}
                 </span>
               </div>
           </div>
