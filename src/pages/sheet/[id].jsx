@@ -279,7 +279,7 @@ function Sheet({
                         <StatusBar
                           current={character.current_hit_points}
                           max={character.max_hit_points}
-                          label={`${character.current_hit_points}/${character.max_hit_points}`}
+                          label={`HP: ${character.current_hit_points}/${character.max_hit_points}`}
                           primaryColor="#E80A67"
                           secondaryColor="#4d0321"
                           onClick={() => {
