@@ -20,7 +20,7 @@ const Header = ({
                 src="/assets/logo.svg"
                 alt="Open Source RPG"
                 width="256"
-                height="230"
+                height="200"
             />
             <h1
                 className={classes.title}
